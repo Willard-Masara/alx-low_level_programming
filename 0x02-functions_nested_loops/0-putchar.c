@@ -1,11 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * Main-This is the betty documentation
- *
- * Return:0 Always the case
+ * Main- a program to to with main calling
+ * Description: "prints putchar  to stdout"
+ * Return: 0 always
  */
 int main (void)
 {
-	printf("_putchar\n");
+	_putchar(" _ ");
+	_putchar(" p ");
+	_putchar(" u ");
+	_putchar(" t ");
+	_putchar(" c ");
+	_putchar(" h ");
+	_putchar(" a ");
+	_putchar(" r ");
+	_putchar(" \n ");
 	return (0);
 }
+
