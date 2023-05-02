@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 	while (h)
 	{
 	cells++;
-	printf("%d\n", h->nc);
+	printf("%d\n", h->n);
 	h = h->next;
 
 
