@@ -22,15 +22,14 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 	exit(98);
 	}
 	for (i = 0; i < size - 1; i++)
-	newlist1[i] = list[i];
+	newlist1[i] = list [i];
 	newlist1[i] = new;
 	free(list);
 	return (newlist1);
 
 }
-
 /**
-*print_listint_safe- to print a list
+*print_listint_safe- to print a list 
 *@head:head of list
 *
 *Return:n(nodes(list))
@@ -47,20 +46,16 @@ size_t print_listint_safe(const listint_t *head)
 	if (head == list[i])
 	{
 	printf("->[%p] %d\n", (void *)head, head->n);
-	head = head->next;
-	}
 	free(list);
 	return (numero);
 	}
 	}
-	list = realloc(list, numero + 1, head);
-	if (list == NULL)
-	exit(98);
+	numero++;
+	list = _r(list, numero, head);
 	printf("[%p] %d\n", (void *)head, head->n);
 	head = head->next;
-	numero++;
 	}
-	free(list)
-	return(numero);
-	}
+	free(list);
+	return (numero);
+	
 }
