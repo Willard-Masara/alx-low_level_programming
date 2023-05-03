@@ -49,6 +49,7 @@ size_t free_listint_safe(listint_t **head)
 	free(list);
 	return (numero);
 	}
+	}
 	numero++;
 	list = _ra(list, numero, *head);
 	next =(*head)->next;
@@ -57,10 +58,10 @@ size_t free_listint_safe(listint_t **head)
 	}
 	free(list);
 	return (numero);
-	}
 
 
 
 
-}
+
+
 }
