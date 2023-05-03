@@ -17,7 +17,7 @@ return (NULL);
 nu = malloc(sizeof(listint_t));
 if (nu == NULL)
 return (NULL);
-nu->nc = n;
+nu->n = n;
 nu->next = *head;
 *head = nu;
 return (nu);
