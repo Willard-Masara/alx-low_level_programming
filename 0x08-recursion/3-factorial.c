@@ -1,4 +1,4 @@
-#include 'main.h"
+#include "main.h"
 /**
 *main-returns factorial of a number
 *@n: base number for factorial
