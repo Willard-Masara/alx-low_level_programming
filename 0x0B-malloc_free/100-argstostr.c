@@ -3,8 +3,6 @@
 #include <stdlib.h>
 /**
  * argstostr- arguments to string
- * @c: agrc
- * @v: argv
  *@av:argc
  *@ac:argv
  *
