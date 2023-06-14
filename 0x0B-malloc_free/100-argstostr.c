@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/** 
+/**
  * argstostr- arguments to string
  * @c: agrc
  * @v: argv
+ *@av:argc
+ *@ac:argv
  *
  * Return: concat of agrc and argv
 */
