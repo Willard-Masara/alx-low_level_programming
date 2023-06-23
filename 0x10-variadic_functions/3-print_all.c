@@ -38,7 +38,7 @@ void print_all(const char * const format, ...)
 
 	if (!str)
 	str = "(nil)";
-	printf(%s%s", pos, str);
+	printf("%s%s", pos, str);
 	break;
 	default:
 	i++;
@@ -51,7 +51,8 @@ void print_all(const char * const format, ...)
 
 
 }
-
+printf("\n");
+va_end(list);
 
 
 }
