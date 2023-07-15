@@ -1,3 +1,6 @@
+#include <unistd.h>
+#include <stddef.h>
+#include<fcntl.h>
 #include "main.h"
 /**
 *append_text_to_file- fx tp append txt to file
