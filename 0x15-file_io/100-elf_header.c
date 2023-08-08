@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
         exit(98);
 	}
 
-	header;
+
 	if (read(fd, &header, sizeof(header)) != sizeof(header))
 			{
 			fprintf(stderr, "Error: Cannot read ELF header\n");
